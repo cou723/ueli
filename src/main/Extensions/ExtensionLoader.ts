@@ -16,6 +16,7 @@ import { SimpleFileSearchExtensionModule } from "./SimpleFileSearch/SimpleFileSe
 import { SystemCommandsModule } from "./SystemCommands";
 import { SystemSettingsModule } from "./SystemSettings";
 import { TerminalLauncherModule } from "./TerminalLauncher";
+import { TodoistModule } from "./Todoist";
 import { UeliCommandModule } from "./UeliCommand";
 import { UuidGeneratorModule } from "./UuidGenerator";
 import { VSCodeModule } from "./VSCode";
@@ -46,6 +47,7 @@ export class ExtensionLoader {
             new SystemCommandsModule(),
             new SystemSettingsModule(),
             new TerminalLauncherModule(),
+            new TodoistModule(),
             new UeliCommandModule(),
             new UuidGeneratorModule(),
             new VSCodeModule(),
