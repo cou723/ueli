@@ -31,6 +31,7 @@ const platformSpecificConfig = {
     },
     win32: {
         ...baseConfig,
+        appId: "OliverSchwendener.Ueli",
         appx: {
             applicationId: "OliverSchwendener.Ueli",
             backgroundColor: "#1F1F1F",
