@@ -301,6 +301,7 @@ export const Search = ({
             if (typeof newSearchTerm !== "string") {
                 return;
             }
+
             searchHistory.closeMenu();
             search(newSearchTerm);
             userInput.focus();
